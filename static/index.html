@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocuMind — Chat with Your Documents</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <h1>📚 DocuMind</h1>
+                <p class="sub">Chat with your documents</p>
+            </div>
+            <div class="upload-section">
+                <h3>Add Documents</h3>
+                <div class="drop-zone" id="dropZone">
+                    <p>📎 Drop PDF/TXT here</p>
+                    <input type="file" id="fileInput" accept=".pdf,.txt,.md" hidden>
+                </div>
+                <div class="divider">or paste text</div>
+                <textarea id="pasteText" placeholder="Paste document text..." rows="3"></textarea>
+                <input type="text" id="sourceName" placeholder="Source name (optional)">
+                <button id="addTextBtn" class="btn">Add Text</button>
+            </div>
+            <div class="stats">
+                <span id="chunkCount">0</span> chunks indexed
+            </div>
+        </aside>
+        <main class="chat-area">
+            <div class="messages" id="messages">
+                <div class="welcome">
+                    <h2>👋 Upload documents, then ask questions</h2>
+                    <p>Your answers will include citations from the source material.</p>
+                </div>
+            </div>
+            <div class="input-bar">
+                <input type="text" id="questionInput" placeholder="Ask a question about your documents..." autofocus>
+                <button id="askBtn" class="btn btn-primary">Ask</button>
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="/static/script.js"></script>
+</body>
+</html>
