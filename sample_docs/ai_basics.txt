@@ -1,0 +1,7 @@
+Artificial Intelligence: A Brief Overview
+
+Artificial intelligence (AI) refers to computer systems designed to perform tasks that typically require human intelligence. These include learning, reasoning, problem-solving, perception, and language understanding.
+
+Machine learning, a subset of AI, enables systems to learn from data. Deep learning uses neural networks with many layers to model complex patterns.
+
+Common applications include NLP, computer vision, recommendation systems, and autonomous vehicles.
