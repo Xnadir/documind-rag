@@ -1,5 +1,7 @@
 # DocuMind — RAG Knowledge Base 📚
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue) ![ChromaDB](https://img.shields.io/badge/vectorDB-ChromaDB-orange) ![License](https://img.shields.io/badge/license-MIT-green) — RAG Knowledge Base 📚
+
 Chat with your documents using AI. Upload PDFs, text files, or paste content — then ask questions and get accurate answers with source citations. Built using the RAG (Retrieval-Augmented Generation) pattern.
 
 This is the most common architecture used in real-world AI applications at companies like Google, Microsoft, and OpenAI.
