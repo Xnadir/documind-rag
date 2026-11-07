@@ -74,3 +74,20 @@ documind-rag/
 ## License
 
 MIT
+
+
+## Configuration
+
+| Variable              | Default           | Description              |
+|-----------------------|-------------------|--------------------------|
+| `GEMINI_API_KEY`      | —                 | Google Gemini API key    |
+| `CHUNK_SIZE`          | 500               | Characters per chunk     |
+| `CHUNK_OVERLAP`       | 50                | Overlap between chunks   |
+| `TOP_K`               | 5                 | Results to retrieve      |
+| `EMBEDDING_MODEL`     | all-MiniLM-L6-v2  | Sentence transformer     |
+
+## Docker
+
+```bash
+docker-compose up --build
+```
