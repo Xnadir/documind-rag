@@ -7,3 +7,16 @@ rag_db/
 Thumbs.db
 .vscode/
 .idea/
+
+# ChromaDB
+chroma_db/
+
+# Docker
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+
+# Uploads
+uploads/
